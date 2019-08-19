@@ -12,19 +12,14 @@ export const Header = styled.View`
 
 export const Avatar = styled.Image`
     width: 32px;
-    height: 32 px;
+    height: 32px;
     border-radius: 16px;
     margin-right: 10px;
 `;
 
 export const Name = styled.Text`
     color: #333;
-    font-wight: bold;
-`;
-
-export const PostImage = styled.Image`
-    width: 100%
-    aspect-ratio: ${props => props.ratio}
+    font-weight: bold;
 `;
 
 export const Description = styled.Text`
